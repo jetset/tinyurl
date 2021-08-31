@@ -12,10 +12,17 @@ to install if you are using rvm.
   cd tinyurl
   bundle 
   rails db:create
+  rails db:migrate 
+  # To generate tokens please run the following 
   rails generate:keys
 
 ```
-  
+### Run tests 
+
+```
+rspec 
+```
+
 ### Run the ruby IDE 
 
 ```
@@ -23,3 +30,4 @@ to install if you are using rvm.
  
 ```
 
+![Screen Shot 2021-08-30 at 12 35 27 PM](https://user-images.githubusercontent.com/599252/131426163-c8c21bb7-ba7a-41f5-b077-572201768233.png)
